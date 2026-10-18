@@ -1,0 +1,68 @@
+# Mall Customer Segmentation using Unsupervised Learning
+
+## Project Overview
+
+This project focuses on grouping mall customers based on their Annual Income and Spending Score using clustering algorithms.
+
+## Dataset
+
+* **Dataset:** Mall Customers
+* **Source:** [Mall Customers Dataset](https://raw.githubusercontent.com/DataThinkers/Datasets/main/DS/Mall_Customers.csv)
+* **Total Records:** 200
+* **Selected Features:** Annual Income and Spending Score
+
+## Tasks Performed
+
+1. Data Exploration and Preprocessing
+2. K-Means Clustering
+3. Hierarchical Clustering
+4. DBSCAN Clustering
+5. Dimensionality Reduction using PCA and t-SNE
+6. Cluster Analysis and Business Recommendations
+
+## Algorithms Used
+
+* K-Means
+* Hierarchical Clustering
+* DBSCAN
+* PCA
+* t-SNE
+
+## Model Evaluation
+
+| Algorithm               | Silhouette Score |
+| ----------------------- | ---------------: |
+| K-Means                 |           0.5547 |
+| Hierarchical Clustering |           0.5538 |
+| DBSCAN                  |           0.5243 |
+
+*Note: The DBSCAN score was calculated after excluding noise points.*
+
+## Key Findings
+
+* K-Means performed slightly better based on the Silhouette Score.
+* Customers were grouped into five segments using K-Means.
+* Each cluster represents different income and spending patterns.
+* PCA and t-SNE were used to understand and visualize customer patterns.
+
+## Business Recommendations
+
+* Provide rewards to high-income, high-spending customers.
+* Offer personalized promotions to encourage more spending.
+* Provide budget-friendly products and offers to suitable customer groups.
+* Use seasonal offers to maintain customer interest.
+
+## Technologies Used
+
+* Python
+* Google Colab
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* SciPy
+
+## Conclusion
+
+This project helped me understand customer segmentation using unsupervised learning. The results can help malls understand customer behavior and plan better marketing strategies.
